@@ -20,8 +20,9 @@
     <div class="color">
         
     
-        <h1 class="text first-text">Hello!!👋,I'm</h1>
-        <h1 class="text sec-text"> Dishanth shetty!!</h1>
+        <h1 class="text first-text">Hello!!👋,I'm <span id="element"></span></h1>
+        <span>EAGERLY WAITING TO CHECK OUT ON ME!!!</span>
+        
        
     </div>
     
@@ -94,7 +95,7 @@
         </nav>
         <nav>
             <h1>projects</h1>
-            <span>upcomming</span><br>
+            <span  class="firstproj">upcomming</span><br>
             <span>upcomming</span><br>
             <span>upcomming</span> <br>
         </nav>
@@ -104,6 +105,18 @@
         </nav>
 
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed=new Typed('#element',{
+            strings:['Dishanth Shetty',' a programer','developer'],
+            typeSpeed:100,
+            loop:true,
+            interval:1000
+
+            
+
+        });
+    </script>
    
     <script src="index.js"></script>
 </body>
