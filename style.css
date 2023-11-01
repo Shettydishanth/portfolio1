@@ -79,8 +79,7 @@ nav ul{
 }
 .mango{
   display: flex;
-  
-  padding: 0px 50px  0px 50px  ;
+  padding: 0px 20px  0px 20px  ;
   gap: 40px;
 }
 .nav{
@@ -93,8 +92,11 @@ nav ul{
   border-radius: 20px;
   padding: 50px 150px 5px 150px;
   box-shadow: 0px 0px 10px rgb(239, 238, 244);
-  
   text-align: center;
+}
+.skil{
+padding: 0% 30% 0% 30%;
+
 }
 .tools{
   background-color: #d4bebe;
