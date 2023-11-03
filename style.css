@@ -122,11 +122,13 @@ padding: 0px  30px 50px 30px;
 text-align: center;
 
 }
-.firstproj{
-  background-color: #b3a4a4;
+.project1{
+  background-color:blue;
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 50px 100px 5px 100px;
+  margin: 40px 500px 40px 500px;
   box-shadow: 0px 0px 10px rgba(87, 80, 144, 0.2);
 text-align: center;
 }
