@@ -150,4 +150,43 @@ text-align: center;
   text-transform: uppercase;
 }
 
+.container {
+  background-color: #3a0a0a;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(62, 24, 24, 0.2);
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #241414;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #210a0a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 
