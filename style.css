@@ -79,7 +79,7 @@ nav ul{
 
 .side{
   font-size: 18px;
-  padding-top: 30px;
+  padding-top: 80px;
   padding-right: 40px;
   padding-bottom: 140px;
   font-family: Cursive;
@@ -95,6 +95,7 @@ nav ul{
   padding: 20px;
 }
 .skills{
+  font-family: Cursive;
   background-color:  #d4bebe;
   border-radius: 20px;
   padding: 50px 150px 5px 150px;
@@ -108,14 +109,16 @@ font-family: Cursive;
 
 }
 .tools{
+  font-family: Cursive;
   background-color: #d4bebe;
   border-radius: 20px;
   padding: 50px 180px 50px 180px;
   text-align: center;
-  box-shadow: 0px 0px 10px rgb(239, 238, 244);
+  box-shadow: 0px 0px 20px rgb(239, 238, 244);
 
 }
 .library{
+  font-family: Cursive;
   background-color: #d4bebe;
   border-radius: 30px;
   padding: 50px 100px 5px 100px;
@@ -146,18 +149,19 @@ text-align: center;
   gap: 80px;
 }
 .abtme{
+  font-family: Cursive;
   position: relative;
   font-size: 1.5vw;
-  color: #06062c00;
-  -webkit-text-stroke: 0.3vw #ede1e1;
-  text-transform: uppercase;
+  color: rgba(230, 230, 237, 0.955);
+  
+ 
 }
 
 .container {
   font-family: Cursive;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(239, 238, 238, 0.975);
-  margin: 20px auto;
+  margin: 50px auto;
   max-width: 400px;
   padding: 20px;
   border-radius: 10px;
@@ -198,6 +202,9 @@ button {
 .hidden {
   display: none;
 }
-
+.lets{
+  font-family: Cursive;
+  
+}
 
 
