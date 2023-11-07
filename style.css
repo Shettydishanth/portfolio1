@@ -1,10 +1,23 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Playfair+Display:ital,wght@0,400;1,600&family=Roboto:ital,wght@1,100&display=swap');
   
+  html{
+    scroll-behavior:smooth;
+    transition: 2s;
+  }
 
 body{
-    background-color: black;
+    background-color:black;
     color:white;
+    font-family: Cursive;
+    
+}
+nav{
+ 
+  background-color: black;
+}
+.home{
+  color: white;
 }
 
 nav ul{
@@ -13,6 +26,7 @@ nav ul{
     list-style-type: none;
     gap: 30px;
     margin: 0 5px;
+    padding-right: 100px;
     padding-top: 40px;
     font-family: Cursive;
 }
@@ -24,8 +38,11 @@ nav ul{
   padding-top: 20px;
  
 }
-.home{
-  padding-left: 2ren;
+.hme{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  color: #fcf8f8;
 }
 .welcome{
   font-family: Cursive;
@@ -40,9 +57,10 @@ nav ul{
   padding-bottom: 180px;
 }
 .main{
-    padding-right: 55em;
+    
     text-shadow: 0 0 3px #bb1111, 0 0 5px #0000ff;
     font-weight: bold;
+    padding-right: 700px;
 }
 .color{
   
@@ -128,16 +146,10 @@ font-family: Cursive;
 text-align: center;
 
 }
-.project1{
-  background-color:blue;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  padding: 50px 100px 5px 100px;
-  margin: 40px 500px 40px 500px;
-  box-shadow: 0px 0px 10px rgba(87, 80, 144, 0.2);
+ .project1{
+  font-family: Cursive;
 text-align: center;
-}
+} 
 .welcome{
   position: absolute;
   bottom: 380px;
@@ -157,12 +169,12 @@ text-align: center;
  
 }
 
-.container {
+.container1{
   font-family: Cursive;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(239, 238, 238, 0.975);
   margin: 50px auto;
-  max-width: 400px;
+  max-width: 500px;
   padding: 20px;
   border-radius: 10px;
 }
@@ -206,5 +218,74 @@ button {
   font-family: Cursive;
   
 }
+
+
+
+
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-container img {
+  display: block;
+}
+
+/* Style the navigation buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(240, 231, 231);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "prev" button to the left */
+.prev {
+  left: 0;
+}
+
+/* Position the "next" button to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(245, 244, 244, 0.8);
+}
+
+/* Caption text */
+.middle {
+  color: #552c2c;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+#mine{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 
 

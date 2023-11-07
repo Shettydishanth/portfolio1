@@ -6,17 +6,21 @@
     <title> DISHANTH </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+  
+   
 
 </head>
 <body>
     <nav>
         <ul>
             <li  class="main">DISHANTH</li>
-           <a href="#house"> <li class="home">HOME</li></a>
+            <div class="hme">
+           <a href="#house"> <li class="home" >HOME</li></a>
          <a href="#mine"> <li class="home"> ABOUT</li></a>   
         <a href="#skulls"> <li class="home">SKILL</li></a>   
         <a href="#projects">   <li class="home">PROJECT</li></a>  
-       <a href="#about"> <li class="home">CONNECT</li></a>     
+       <a href="#about"> <li class="home">CONNECT</li></a>  
+    </div>   
         </ul>
     </nav>
     <div id="house">
@@ -94,31 +98,40 @@
         </nav>
     </div>
     <div id="projects">
-        <h1  style="text-align: center;">Projects</h1>
-        <div class="firstpjct">
-            <a href="https://shettydishanth.github.io/tic-tac-toe/"></a>
-            <img src="lastproject.png" alt="prjct" width="500" height="500">
-
+<div class="project1">
+    <h1>PROJECTS</h1>
+</div>
+    
+    <div class="slideshow-container">
+        <div class="slide fade">
+          <a href="https://shettydishanth.github.io/tic-tac-toe/"></a>
+          <img src="lastproject.png" alt="Image 1">
+          <div class="middle">Caption 1</div>
         </div>
-        <div class="secndtpjct">
-            <a href="https://shettydishanth.github.io/tic-tac-toe/"></a>
-            <img src="lastproject.png" alt="prjct" width="500" height="500">
-
+        <div class="slide fade">
+          <a href="https://shettydishanth.github.io/tic-tac-toe/"></a>
+          <img src="lastproject.png" alt="Image 2">
+          <div class="middle">MY SECOND PROJECT</div>
         </div>
-        <div class="thrdtpjct">
-            <a href="https://shettydishanth.github.io/tic-tac-toe/"></a>
-            <img src="lastproject.png" alt="prjct" width="500" height="500">
-
+        <div class="slide fade">
+          <a href="https://shettydishanth.github.io/tic-tac-toe/"></a>
+          <img src="lastproject.png" alt="Image 3">
+          <div class="middle">Caption 3</div>
         </div>
-    </div>
-          
+            <!-- Navigation buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#9665;</a>
+    <a class="next" onclick="plusSlides(1)">&#9655;</a>
+  </div>
+</div>       
+
+
     <div id="about">
         <nav >
             <div class="lets"> <h1> <center>LETS CONNECT...</center> </h1></div>
            
-            <div class="container">
+            <div class="container1">
                 <h2>Contact Me</h2>
-                
+                <p>Feel free to reach out to me by filling out the form below.</p>
                 <form id="contact-form">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -133,7 +146,7 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
 
-                    <p>Feel free to reach out to me by filling out the form below.</p>
+                    
         
                     <button type="submit" id="submit-btn">Submit</button>
                 </form>
@@ -156,6 +169,29 @@
             interval:1000
         });
     </script>
+
+<script>
+    let slideIndex = 0;
+
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      slideIndex++;
+
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
    
     <script src="index.js"></script>
 </body>
