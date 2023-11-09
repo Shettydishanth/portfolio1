@@ -16,6 +16,7 @@ body{
 nav{
  
   background-color: black;
+  
 }
 .home{
   color: white;
@@ -30,6 +31,7 @@ nav ul{
     padding-right: 100px;
     padding-top: 40px;
     font-family: Cursive;
+    
 }
 
 .image-container {
@@ -38,6 +40,9 @@ nav ul{
   margin-right: auto;
   padding-top: 20px;
  
+}
+.color{
+  z-index: 1000;
 }
 .hme{
   display: flex;
@@ -56,6 +61,7 @@ nav ul{
   margin-right: auto;
   width: 40%;
   padding-bottom: 180px;
+
 }
 .main{
     
