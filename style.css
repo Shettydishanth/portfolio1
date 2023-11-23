@@ -38,6 +38,9 @@ nav ul{
     padding-top: 40px;
     font-family: Cursive;
 }
+a:hover {
+  background-color: rgb(71, 71, 3);
+}
 
 .image-container {
   display: block;
