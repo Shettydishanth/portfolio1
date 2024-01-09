@@ -53,6 +53,9 @@ a:hover {
 .color{
   z-index: 1000;
 }
+.welcome{
+  z-index: 1000;
+}
 .hme{
   display: flex;
   gap: 40px;
